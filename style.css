@@ -1,0 +1,75 @@
+/*  "*" - Universal element */
+*{
+    font-family: "Roboto", sans-serif;
+
+}
+
+h1,h2{
+    font-family: "Montserrat" sans-serif;
+}
+
+
+img{
+    height: 250px;
+    width: 250px;
+    border: 3px solid blueviolet;
+    border-radius: 100%;
+}
+
+/*  vh - viewport height (dependends on height of the user monitor/screen) */
+/*  display: flex - allows to align the elements horizontall and vertically*/
+/*  flex-direction:  column - aligns the flex item into column/vertically*/
+/*  justify-content: center - aligns the flex items veritcally*/
+#landing{
+    height: 80vh; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+}
+
+#gallery{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+    border-radius: 6px;
+    color: #A8DADC;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+h2{
+    color: #e63946;
+}
+
+.tools{
+    border: 5px solid #f2f2f2;
+    height: 200px;
+    /* % depends on the width of the parent element */
+    width: 75%;
+    margin: 20px;
+    padding: 25px;
+}
+
+.tools:hover{
+    border-radius: 50px;
+        transition: 1s;
+    }
+
+.navbar{
+    background-color: #1d3557;
+}
+
+.jumbotron{
+    background-color: #f1faee;
+}
+
